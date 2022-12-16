@@ -17,13 +17,13 @@ int main(void)
 	for (i = 1; i <= 100; i++)
 	{
 		if (i == 100)
-			printf("%5", b);
+			printf("%5", b[]);
 		else if ((i % 3 == 0) && (i % 5 == 0))
-			printf("%5", fb);
+			printf("%5", fb[]);
 		else if (i % 3 == 0)
-			printf("%5", f);
+			printf("%5", f[]);
 		else if (i % 5 == 0)
-			printf("%5", b);
+			printf("%5", b[]);
 		else
 			printf("%d ", i);
 	}
