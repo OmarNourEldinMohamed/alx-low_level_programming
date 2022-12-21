@@ -2,9 +2,8 @@
 #include <stdio.h>
 /**
  * print_array - prints n elements
- * @a: pointer 
+ * @a: pointer
  * @n: no of arr elements
- * 
  * Return: void
  */
 void print_array(int *a, int n)
@@ -16,7 +15,7 @@ void print_array(int *a, int n)
 		printf("%d", a[i]);
 		if (i != n - 1)
 		{
-			printf(" ");
+			printf(",");
 			printf(" ");
 		}
 	}
