@@ -1,1 +1,1 @@
-C - Singly linked listss
+0x12. C - Singly linked lists
